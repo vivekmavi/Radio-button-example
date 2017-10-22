@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="20sp"
+    tools:context="com.example.paras.radiobutton.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio button text"
+        />
+    <RadioButton
+        android:id="@+id/radio_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is button one"
+        />
+    <RadioButton
+        android:id="@+id/radio_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button 2 with tint and checked = true"
+        android:buttonTint="@color/colorPrimary"
+        android:checked="true"
+        />
+    <RadioButton
+        android:id="@+id/radio_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn 3 will unchecked button 2 and 1"
+        />
+    <Button
+        android:id="@+id/btn_to_uncheck_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uncheck all"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
